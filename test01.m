@@ -2,8 +2,8 @@ Relacion Byte bits
 
 1 byte -> 8 bits 0 255 -128 127
 2 byte -> 16 bits
-3 byte -> 32 bits  Numeros Binarios-> 0 1
-4 bytes -> 64 bits 
+3 byte -> 24 bits  Numeros Binarios-> 0 1
+4 bytes -> 32 bits 
 
 
 Comparacion 2 estados posibles
