@@ -1,18 +1,41 @@
-Relacion Byte bits
+x=3;
+y=2;
 
-1 byte -> 8 bits 0 255 -128 127
-2 byte -> 16 bits
-3 byte -> 24 bits  Numeros Binarios-> 0 1
-4 bytes -> 32 bits 
+c = x > y;
+
+switch(c)
+  case(true)
+    disp('La variable x es Mayor a la variable y')
+  case(false)
+    disp('La variable x es Menor que la variable y')
+otherwise
+  disp('Otro estado posible')
+endswitch
 
 
-Comparacion 2 estados posibles
 
--> 2 < 3 o 2 = 3 ->TRUE
 
--> 2 < 3 Y 2 = 3 ->FALSE
 
-COMPARACION DE 1 ESTADO POSIBLE
 
--> 2 == 3 ->FALSE(TAL SEA IGUAL A TAL)
--> 2 ~= 3 ->TRUE (No es igual a tal)
+#{
+if(x > y)
+  disp('El numero 2 es Mayor a el numero 1')
+  disp('002')
+elseif(x >= y)
+  disp('El numero 2 es Menor o igual a el numero 1')
+  disp('003')
+else  
+  disp('El numero 2 es Menor a el numero 1')
+  disp('004')
+endif
+#}
+
+
+
+
+
+
+
+
+
+
