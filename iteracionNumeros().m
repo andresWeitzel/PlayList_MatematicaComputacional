@@ -1,11 +1,14 @@
 
-function iteracion=iteracionNumeros(inicio,fin)
-  
-  for iteracionFor = inicio:fin
-    
-    disp(iteracionFor)
-    
+
+function iteracion=iteracionNumeros(comienzo,final)
+  numero=0
+  for comienzo:final
+    disp(numero)
+    numero++
   endfor
   
-  
 endfunction  
+
+
+
+
